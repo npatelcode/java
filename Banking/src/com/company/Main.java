@@ -30,7 +30,7 @@ public class Main {
             System.out.println("Branch already exists");
         }
         if(!bank.addCustomerTransaction("Montreal","BOB",22.22)){
-            System.out.println("Customer does not exists");
+            System.out.println("Customer does not exists in this branch");
         }
     }
 }
