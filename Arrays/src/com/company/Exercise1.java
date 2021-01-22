@@ -4,34 +4,33 @@ import java.util.Scanner;
 
 
 public class Exercise1 {
-    /**
-     * Exercise 1. Take 10 integer inputs from user and store them in an array and print them on
-     * screen.
-     * Output:
-     *      Enter 10 numbers:
-     *      11
-     *      22
-     *      33
-     *      44
-     *      55
-     *      66
-     *      77
-     *      88
-     *      99
-     *      1111
-     *      11
-     *      22
-     *      33
-     *      44
-     *      55
-     *      66
-     *      77
-     *      88
-     *      99
-     *      1111
-     *
-     *      Process finished with exit code 0
-     *      */
+    /*
+     Exercise 1. Take 10 integer inputs from user and store them in an array and print them on screen.
+     Output:
+          Enter 10 numbers:
+          11
+          22
+          33
+          44
+          55
+          66
+          77
+          88
+          99
+          1111
+          You have entered following elements:
+          11
+          22
+          33
+          44
+          55
+          66
+          77
+          88
+          99
+          1111
+         Process finished with exit code 0
+     */
 
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
