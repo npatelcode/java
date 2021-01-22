@@ -33,7 +33,7 @@ public class Exercise3 {
                 negativeCount++;
             }
 
-            if((i^1)==i+1){
+            if(i%2==0){
                 evenCount++;
             }else{
                 oddCount++;
