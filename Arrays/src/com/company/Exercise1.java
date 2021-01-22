@@ -15,33 +15,34 @@ public class Exercise1 {
         for (int i = 0; i < ints.length ; i++) {
             ints[i]=s.nextInt();
         }
+        System.out.println("You have entered following elements:");
         for (int j:ints) {
             System.out.println(j);
         }
     }
 }
-/**
- Enter 10 numbers:
- 11
- 22
- 33
- 44
- 55
- 66
- 77
- 88
- 99
- 1111
- 11
- 22
- 33
- 44
- 55
- 66
- 77
- 88
- 99
- 1111
+/* Output:
+     Enter 10 numbers:
+     11
+     22
+     33
+     44
+     55
+     66
+     77
+     88
+     99
+     1111
+     11
+     22
+     33
+     44
+     55
+     66
+     77
+     88
+     99
+     1111
 
- Process finished with exit code 0
- */
+     Process finished with exit code 0
+     */
