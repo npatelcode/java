@@ -1,10 +1,10 @@
+/**
+ * Exercise 5. Find largest and smallest elements of an array.
+ */
 package com.company;
 
 import java.util.Scanner;
 
-/**
- * 5. Find largest and smallest elements of an array.
- */
 public class Exercise5 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
@@ -27,7 +27,7 @@ public class Exercise5 {
         System.out.println("Largest="+largest);
     }
 }
-/**
+/** Output:
  Enter 10 numbers:
  11
  21

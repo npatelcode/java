@@ -1,12 +1,12 @@
+/**
+ * Exercise 2. Take 10 integer inputs from user and store them in an array. Again, ask user to
+ * give a number. Now, tell user whether that number is present in array or not.
+ */
 package com.company;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Exercise 2. Take 10 integer inputs from user and store them in an array. Again, ask user to
- * give a number. Now, tell user whether that number is present in array or not.
- */
 public class Exercise2 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Exercise2 {
         }
     }
 }
-/**
+/** Output:
  Enter 10 numbers:
  10
  20

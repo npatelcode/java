@@ -1,10 +1,9 @@
+/**
+ * Exercise 9: Input any number. Find the sum of the digits of the number using a recursive function.
+ */
 package com.company;
-
 import java.util.Scanner;
 
-/**
- * 9. Input any number. Find the sum of the digits of the number using a recursive function.
- */
 public class Exercise9 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
@@ -18,7 +17,7 @@ public class Exercise9 {
         return (n%10)+sum(n/10);
     }
 }
-/**
+/** Output:
  Input any number:
  5789
  Sum of digits =29

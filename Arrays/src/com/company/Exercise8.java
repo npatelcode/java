@@ -1,9 +1,3 @@
-package com.company;
-
-import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
  * Sorting refers to arranging data in a particular format. Sort an array of integers in ascending order.
  * One of the algorithms is selection sort. Use below explanation of selection sort to do this.
@@ -20,6 +14,10 @@ import java.util.Scanner;
  * Fourth iteration: Compare every element after fourth element with fourth element and if it is
  * larger than swap. In fourth iteration, 45 is larger than 15. So, swap it.
  */
+package com.company;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Exercise8 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);

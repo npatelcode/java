@@ -1,12 +1,13 @@
+/**
+ * Exercise 4. Take 10 integer inputs from user and store them in an array. Now, copy all the
+ * elements in another array but in reverse order
+ */
 package com.company;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * 4. Take 10 integer inputs from user and store them in an array. Now, copy all the
- * elements in another array but in reverse order
- */
+
 public class Exercise4 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);

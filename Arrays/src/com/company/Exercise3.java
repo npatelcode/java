@@ -1,8 +1,3 @@
-package com.company;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
 /**
  * Exercise 3: Take 20 integer inputs from user and print the following:
  * number of positive numbers
@@ -11,6 +6,10 @@ import java.util.Scanner;
  * number of even numbers
  * number of 0s.
  */
+package com.company;
+
+import java.util.Scanner;
+
 public class Exercise3 {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);

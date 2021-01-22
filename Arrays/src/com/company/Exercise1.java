@@ -1,12 +1,10 @@
-package com.company;
-
-import java.util.Scanner;
 /*
-     Exercise 1. Take 10 integer inputs from user and store them in an array and print them on screen.
+  Exercise 1. Take 10 integer inputs from user and store them in an array and print them on screen.
 */
+package com.company;
+import java.util.Scanner;
 
 public class Exercise1 {
-
 
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
